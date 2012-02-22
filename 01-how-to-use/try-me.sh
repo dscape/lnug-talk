@@ -1,0 +1,1 @@
+time node index.js > /dev/null

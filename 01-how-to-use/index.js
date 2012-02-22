@@ -1,11 +1,10 @@
 // all npm authors sorted by number of repos
 var fs             = require('fs')
-  , clarinet       = require('../clarinet')
+  , clarinet       = require('clarinet')
   , parse_stream   = clarinet.createStream()
   , author         = false
   , authors        = {}
   ;
-
 
 parse_stream.on('openobject', function(name) {
   if(name==='author') author=true;

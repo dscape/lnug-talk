@@ -8,14 +8,15 @@ I don't have a talk per se, but we can talk about streaming JSON parsing iff you
     * It's faster
     * But blocking. and blocking is bad in node.
     * Doesn't do async (streaming or cb)
-* How to use a parser in node
-* How to write a json parser in javascript
+* How to use a streaming JSON parser in node
+* How to build your own a json parser in javascript
   * [SAX Like][clarinet]
     * Have it work in the browser means no buffers #FFFUUUUU
   * [Each Level Pop][jsonparse] by Tim Caswell
   * [Hacking it with JSON.parse][maciej] By Maciej Malecki
-* How to use a streaming JSON parser in node
-* Making this simple to use
+  * Performance for all, but I'm probably wrong
+  * Ball is in your court Sir!
+* Making it simple to use
   * Based on this github [issue]
 * Performance tricks on a node JSON streaming parser
   * How to debug node apps and make them faster
