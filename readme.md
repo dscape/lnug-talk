@@ -1,5 +1,3 @@
-I don't have a talk per se, but we can talk about streaming JSON parsing iff you find that interesting. I can show how clarinet works, how I would like an abstraction on top of it to be, other alternatives and why they are good or bad. People in the community seem to center the attention on this topic on me so I have plenty of good resources to show for 10m or so :) I think attendees would learn a little about this topic, and I think it's going to be a growing concern when people realize that no matter how fast JSON.parse is it is blocking their apps.
-
 # I have nothing better to do so I'm listening to this guy talk about developing streaming JSON parsers in javascript
 
 * Why not just use JSON Parse? The why I need to know about this section?
